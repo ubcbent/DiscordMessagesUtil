@@ -1,12 +1,10 @@
-package Utils;
+package main.java.Utils;
 
-import MessageBeans.Message;
-import Constants.Constants;
+import main.java.MessageBeans.Message;
+import main.java.Constants.Constants;
 
 import java.io.FileNotFoundException;
 import java.sql.Timestamp;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.io.File;

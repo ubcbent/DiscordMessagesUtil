@@ -1,4 +1,4 @@
-package MessageBeans;
+package main.java.MessageBeans;
 
 import java.sql.Timestamp;
 
