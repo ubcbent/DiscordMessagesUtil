@@ -11,7 +11,7 @@ public class ComparisonOperations {
      * @param newWords - the second set of words, these define the later stage which will have the first subtracted to find the difference
      * @return A map containing each word and the difference the second wordset had from the first
      */
-    public static Map<String,Integer> wordCountDifference(Map<String,Integer> oldWords, Map<String,Integer> newWords){
+    public static Map<String,Integer> mapValueDifference(Map<String,Integer> oldWords, Map<String,Integer> newWords){
         Map<String,Integer> output = new HashMap<>(newWords);
 
         for(Map.Entry<String,Integer> entry : oldWords.entrySet()){
