@@ -1,6 +1,6 @@
-package main.java.Utils;
+package Utils;
 
-import main.java.MessageBeans.Message;
+import MessageBeans.Message;
 
 import java.util.HashMap;
 import java.util.List;

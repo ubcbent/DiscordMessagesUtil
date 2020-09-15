@@ -1,4 +1,4 @@
-package main.java.Constants;
+package Constants;
 
 import java.text.SimpleDateFormat;
 

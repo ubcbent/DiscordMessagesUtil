@@ -1,10 +1,9 @@
-package main.java;
 
-import main.java.MessageBeans.Message;
-import main.java.Utils.FilterOperations;
-import main.java.Utils.MappingOperations;
-import main.java.Utils.MessageFileParser;
-import main.java.Utils.SortingOperations;
+import Utils.FilterOperations;
+import Utils.MappingOperations;
+import Utils.MessageFileParser;
+import Utils.SortingOperations;
+import MessageBeans.Message;
 
 import java.sql.Timestamp;
 import java.util.List;

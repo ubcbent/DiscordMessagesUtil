@@ -1,7 +1,7 @@
-package main.java.Utils;
+package Utils;
 
-import main.java.MessageBeans.Message;
-import main.java.Constants.Constants;
+import MessageBeans.Message;
+import Constants.Constants;
 
 import java.io.FileNotFoundException;
 import java.sql.Timestamp;
