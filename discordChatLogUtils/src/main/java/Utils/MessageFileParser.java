@@ -12,6 +12,11 @@ import java.util.Scanner;
 
 public class MessageFileParser {
 
+    /**
+     *
+     * @param filepath
+     * @return List of message objects from the file
+     */
     public List<Message> parseMessages(String filepath){
 
         try{

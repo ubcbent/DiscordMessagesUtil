@@ -14,9 +14,10 @@ public class Sandbox {
     public static void main(String[] args) {
         List<Message> messages = new MessageFileParser().parseMessages("C:\\Users\\benti\\OneDrive\\Documents\\Direct Messages - Private - RadiantRobyn [592447353487622161].txt");
 
-        List<Message> entries = FilterOperations.whereMessageContains("",messages, false);
-        for(Message entry : entries){
-            System.out.println(entry.getTime());
+        List<Map.Entry<String,Integer>> entries = SortingOperations.sortMapByValue(MappingOperations.mapWordsToFrequency(messages));
+
+        for(Map.Entry<String,Integer> entry : entries){
+            System.out.println(entry.getKey() + " : " + entry.getValue());
         }
     }
 }
