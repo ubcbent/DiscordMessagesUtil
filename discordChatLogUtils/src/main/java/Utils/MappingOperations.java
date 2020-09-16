@@ -8,6 +8,11 @@ import java.util.Map;
 
 public class MappingOperations {
 
+    /**
+     *
+     * @param messages
+     * @return Map<String,Integer> - Map of words mapped to frequency
+     */
     public static Map<String,Integer> mapWordsToFrequency(List<Message> messages){
         Map<String,Integer> frequencies = new HashMap<>();
         for(Message message : messages){
