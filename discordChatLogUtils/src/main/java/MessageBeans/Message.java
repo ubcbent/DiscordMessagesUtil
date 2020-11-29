@@ -39,4 +39,9 @@ public class Message {
     }
 
     private Timestamp time;
+
+    @Override
+    public String toString() {
+        return "["+getTime()+"] "+getUser()+": "+getContent();
+    }
 }
